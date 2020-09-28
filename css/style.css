@@ -142,6 +142,9 @@ footer h3 {
     .gallery {
         grid-template-columns: 1fr;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+    
     }
 
     .gallery img {
@@ -156,12 +159,16 @@ footer h3 {
 @media (min-width: 768px) {
     .gallery {
         text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+       
     }
 }
 
 @media (min-width: 992px) {
     .gallery {
         text-align: center;
+
     }
 }
 
